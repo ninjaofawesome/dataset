@@ -7,34 +7,35 @@ body {
   text-align: center; }
 
 .box {
+  display: inline-block;
   width: 350px;
   height: 350px;
   background-color: lime;
   color: white;
   margin: 0 12.5%; }
+  .box.box-2 {
+    background-color: yellow; }
+  .box.box-3 {
+    background-color: cyan;
+    margin: 3% 12.5%; }
+  .box.box-4 {
+    background-color: magenta;
+    margin: 3% 12.5%; }
 
 a {
   text-decoration: none; }
   a:hover, a:focus {
     text-decoration: none; }
 
-.box-label {
+.box-label, .box-label-2 {
   text-align: center;
   padding-top: 37.5%;
   text-decoration: none; }
-  .box-label:focus, .box-label:hover {
-    color: cyan;
-    text-decoration: none; }
-
-.box-2 {
-  width: 350px;
-  height: 350px;
-  background-color: yellow;
-  color: white;
-  margin: 3% 12.5%;
-  display: inline-block; }
 
 .answer {
   color: lime;
   margin: 37.5% 25%;
   font-size: 5em; }
+  .answer.answer-2 {
+    color: white;
+    margin: 37.5% 27%; }

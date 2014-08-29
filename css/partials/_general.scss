@@ -9,11 +9,24 @@ body {
 }
 
 .box {
+  display: inline-block;
   width: 350px;
   height: 350px;
   background-color: $green;
   color: $white;
   margin: 0 12.5%;
+  &.box-2 {
+    background-color: $yellow;
+  }
+  &.box-3 {
+    background-color: $cyan;
+    margin: 3% 12.5%;
+  }
+  &.box-4 {
+    background-color: $pink;
+    margin: 3% 12.5%;
+  }
+
 }
 
 a {
@@ -23,28 +36,19 @@ a {
   }
 
 }
-.box-label {
+.box-label, .box-label-2 {
   text-align: center;
   padding-top: 37.5%;
   text-decoration: none;
-  &:focus, &:hover {
-    color: $cyan;
-    text-decoration: none;
-  }
-
 }
 
-.box-2 {
-  width: 350px;
-  height: 350px;
-  background-color: $yellow;
-  color: $white;
-  margin: 3% 12.5%;
-  display: inline-block;
-}
 
 .answer{
   color: $green;
   margin: 37.5% 25%;
   font-size: 5em;
+  &.answer-2 {
+    color: $white;
+    margin: 37.5% 27%;
+  }
 }
