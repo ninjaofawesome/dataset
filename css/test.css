@@ -1,0 +1,40 @@
+body {
+  background-color: white;
+  color: #666666;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.title, .center {
+  text-align: center; }
+
+.box {
+  width: 350px;
+  height: 350px;
+  background-color: lime;
+  color: white;
+  margin: 0 12.5%; }
+
+a {
+  text-decoration: none; }
+  a:hover, a:focus {
+    text-decoration: none; }
+
+.box-label {
+  text-align: center;
+  padding-top: 37.5%;
+  text-decoration: none; }
+  .box-label:focus, .box-label:hover {
+    color: cyan;
+    text-decoration: none; }
+
+.box-2 {
+  width: 350px;
+  height: 350px;
+  background-color: yellow;
+  color: white;
+  margin: 3% 12.5%;
+  display: inline-block; }
+
+.answer {
+  color: lime;
+  margin: 37.5% 25%;
+  font-size: 5em; }
