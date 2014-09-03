@@ -27,6 +27,9 @@ a {
   a:hover, a:focus {
     text-decoration: none; }
 
+.box-label[data-color="green"] {
+  color: #330066; }
+
 .box-label, .box-label-2 {
   text-align: center;
   padding-top: 37.5%;
